@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_no_laporan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor Laporan"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_nik_pelapor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIK Pelapor"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_nama_pelapor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Pelapor"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_tanggal_lapor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lapor"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_tempat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tempat"
+            android:textSize="18sp"
+            android:maxLines="2"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
